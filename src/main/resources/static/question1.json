@@ -1,0 +1,21 @@
+{
+    "stage": "1/4",
+    "statement": "You are Lara Croft's AI. If her AI fails her she perishes before she finishes her quest. Don't fail her or you fail yourself! Your first task is to help her decrypt this message she received.",
+    "instructions": "You can 'GET' the input from /challenge/input and output should be 'POST' json to /challenge/output. Important note: The time between request 'GET' input and 'POST' requests should not exceed 2 secs.",
+    "sampleInput": {
+        "input": {
+            "encryptedMessage": "F KFRTZX JCUQTWJW TSHJ XFNI, YMFY YMJ JCYWFTWINSFWD NX NS BMFY BJ IT, STY BMT BJ FWJ. LT JCUQTWJ!",
+            "key": 5
+        }
+    },
+    "sampleOutput": {
+        "output": {
+            "message": "A FAMOUS EXPLORER ONCE SAID, THAT THE EXTRAORDINARY IS IN WHAT WE DO, NOT WHO WE ARE. GO EXPLORE!"
+			A FAMOUS E>PLORER ONCE SAID, THAT THE E>TRAORDINAR? IS IN =HAT =E DO, NOT =HO =E ARE. GO E>PLORE!
+        }
+    }
+}
+
+A
+B
+C

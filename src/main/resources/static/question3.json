@@ -1,0 +1,54 @@
+{
+    "stage": "3/4",
+    "statement": "Lara is now able to make use of the tools you found for her! The next step is to find which tools are the most useful to her. Have a look at the data and let Lara know which tool she has been using the most",
+    "instructions": "You can 'GET' the input from /challenge/input and output should be 'POST' json to /challenge/output. Important note: The time between request 'GET' input and 'POST' requests should not exceed 2 secs.",
+    "sampleInput": {
+        "input": {
+            "toolUsage": [
+                {
+                    "name": "knife",
+                    "useStartTime": "2017-01-30 10:00:00",
+                    "useEndTime": "2017-01-30 10:10:00"
+                },
+                {
+                    "name": "guns",
+                    "useStartTime": "2017-01-30 10:15:00",
+                    "useEndTime": "2017-01-30 10:20:00"
+                },
+                {
+                    "name": "guns",
+                    "useStartTime": "2017-01-30 11:00:00",
+                    "useEndTime": "2017-01-30 11:10:00"
+                },
+                {
+                    "name": "knife",
+                    "useStartTime": "2017-01-30 11:10:00",
+                    "useEndTime": "2017-01-30 11:20:00"
+                },
+                {
+                    "name": "rope",
+                    "useStartTime": "2017-01-30 13:00:00",
+                    "useEndTime": "2017-01-30 14:00:00"
+                }
+            ]
+        }
+    },
+    "sampleOutput": {
+        "output": {
+            "toolsSortedOnUsage": [
+                {
+                    "name": "rope",
+                    "timeUsedInMinutes": 60
+                },
+                {
+                    "name": "knife",
+                    "timeUsedInMinutes": 20
+                },
+                {
+                    "name": "guns",
+                    "timeUsedInMinutes": 15
+                }
+            ]
+        }
+    }
+}

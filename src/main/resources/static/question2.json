@@ -1,0 +1,23 @@
+{
+    "stage": "2/4",
+    "statement": "Glad to see you made it. Lara is grateful. Hope you have played I SPY before as this just got interesting. You need to help Lara find all the tools she needs in her quest. Find the tool words as they are chopped into letters and distributed in this jumbled up gibberish.",
+    "instructions": "You can 'GET' the input from /challenge/input and output should be 'POST' json to /challenge/output. Important note: The time between request 'GET' input and 'POST' requests should not exceed 2 secs.",
+    "sampleInput": {
+        "input": {
+            "hiddenTools": "opekandifehgujnsr",
+            "tools": [
+                "knife",
+                "guns",
+                "rope"
+            ]
+        }
+    },
+    "sampleOutput": {
+        "output": {
+            "toolsFound": [
+                "knife",
+                "guns"
+            ]
+        }
+    }
+}

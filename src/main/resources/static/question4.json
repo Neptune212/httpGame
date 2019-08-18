@@ -1,0 +1,41 @@
+{
+    "stage": "4/4",
+    "statement": "Thanks to you Lara now knows which tools are more valuable to her. But the next problem she is facing is that the tools are weighing her down. She has decided to limit the weight she is going to carry. Based on the total weight, the weight of each tool and value of the tool, you need to help her choose which tool to carry. If you are able to help her in this final step, it might be a small step for you as an AI but it will be a huge leap for mankind!",
+    "instructions": "You can 'GET' the input from /challenge/input and output should be 'POST' json to /challenge/output. Important note: The time between request 'GET' input and 'POST' requests should not exceed 2 secs.",
+    "sampleInput": {
+        "input": {
+            "tools": [
+                {
+                    "name": "knife",
+                    "weight": 1,
+                    "value": 80
+                },
+                {
+                    "name": "guns",
+                    "weight": 5,
+                    "value": 90
+                },
+                {
+                    "name": "rope",
+                    "weight": 10,
+                    "value": 60
+                },
+                {
+                    "name": "water",
+                    "weight": 8,
+                    "value": 40
+                }
+            ],
+            "maximumWeight": 15
+        }
+    },
+    "sampleOutput": {
+        "output": {
+            "toolsToTakeSorted": [
+                "guns",
+                "knife",
+                "water"
+            ]
+        }
+    }
+}
